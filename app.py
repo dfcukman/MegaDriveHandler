@@ -6,10 +6,10 @@ from os import getenv, rename, remove, path, walk
 from time import sleep
 load_dotenv()
 mega = Mega()
-TOKEN = getenv('TOKEN')
+TOKEN = getenv('1653181941:AAFJhKi5zBriNtUvZeLia8nYqFyB1Jm72KM')
 bot = Bot(token=TOKEN)
-email = getenv('EMAIL')
-password = getenv('PASSWORD')
+email = getenv('DFUCK@hstock.gmail4.me')
+password = getenv('Techskull@2000')
 
 
 def starter(update, context) -> None:
